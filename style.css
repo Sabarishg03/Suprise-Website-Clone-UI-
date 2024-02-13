@@ -1,0 +1,620 @@
+body {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.navb {
+    border: 1px solid white;
+    height: 90px;
+    width: 1260px;
+    margin-left: 0px;
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+    margin-top: 0px;
+    background-color: white;
+}
+
+.navlink {
+    /* border: 2px solid green; */
+    margin-top: 30px;
+    padding-left: 20px;
+    display: flex;
+}
+
+.navlink>li>a {
+    text-decoration: none;
+    color: rgb(0, 85, 255);
+    font-family: sans-serif;
+}
+
+.navlink>li {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+#space {
+    margin-left: 500px;
+}
+
+#logo {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.banner {
+    border: 1px solid white;
+    padding-top: 100px;
+    height: 700px;
+    width: 1260px;
+    background-image: url(./background.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#p1 {
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: rgb(0, 85, 255);
+    /* border: 2px solid red; */
+    margin-top: 50px;
+    padding-left: 300px;
+    margin-bottom: 0px;
+}
+
+#p2 {
+    /* border: 2px solid green; */
+    font-size: medium;
+    font-style: normal;
+    font-family: sans-serif;
+    color: rgb(0, 85, 255);
+    margin-top: 5px;
+    padding-left: 450px;
+}
+
+.banner>img {
+    margin-left: 450px;
+    /* border: 2px solid violet; */
+}
+
+.banner>ul {
+    /* border: 2px solid red; */
+    margin-top: 0px;
+    padding-left: 450px;
+}
+
+.container3 {
+    /* border: 2px solid green; */
+    height: 700px;
+    width: 1260px;
+}
+
+#c1 {
+    /* border: 1px solid blue;   */
+    margin-top: 80px;
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: rgb(11, 57, 151);
+    padding-left: 400px;
+}
+
+.ph>li {
+    /* border: 2px solid red; */
+    height: 600px;
+    width: 400px;
+}
+
+.ph {
+    display: flex;
+}
+
+.ph>li>input {
+    /* margin-left: 80px; */
+    /* padding-left: 100px; */
+    border: 2px solid rgb(143, 143, 255);
+    background-color: rgb(68, 130, 252);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+    box-shadow: 0px 9px 1px rgb(31, 90, 207);
+}
+
+.ph>li>input:hover {
+    background-color: rgb(27, 89, 213);
+}
+
+
+/* .lang {
+    /* border: 2px solid green; */
+
+
+/* height: 100px;
+    width: 1260px; */
+
+.lang>img {
+    /* border: 2px solid red; */
+    background-color: rgb(254, 253, 253);
+    padding-top: 0px;
+}
+
+.logo {
+    /* border: 2px solid red; */
+    height: 700px;
+    width: 1260px;
+}
+
+.marq {
+    /* border: 2px solid blue; */
+    height: 500px;
+    width: 1260px;
+    /* background-image: ; */
+}
+
+.marq img {
+    z-index: -1;
+}
+
+.marq>marquee {
+    z-index: -1;
+}
+
+.stic {
+    border: 2px solid black;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    /* margin-left: 100px; */
+    /* margin-top: 200px; */
+    position: sticky 100px 100px;
+    z-index: -1;
+}
+
+.footer {
+    /* border: 2px solid red; */
+    height: 100px;
+    width: 1260px;
+    display: flex;
+    color: gray;
+}
+
+.f1 {
+    /* border: 2px solid green; */
+    width: 210px;
+    padding-left: 0px;
+}
+
+.f1>li>p {
+    /* border: 2px solid red; */
+    font-size: medium;
+    width: 180px;
+    margin-top: 0px;
+}
+
+.f2 {
+    /* border: 2px solid red; */
+    margin-left: 180px;
+}
+
+.f21>li {
+    /* border: 2px solid; */
+    /* margin-left: 10px; */
+    height: 20px;
+    width: 90px;
+    /* width: auto; */
+}
+
+.f22 {
+    margin-left: 70px;
+    margin-top: 5px;
+}
+
+.f22>li {
+    margin-left: 20px;
+}
+
+.f3 {
+    /* border: 2px solid blue; */
+    margin-left: 180px;
+}
+
+.f3>li {
+    margin-left: 0px;
+    /* border: 2px solid blue; */
+    padding-left: 0px;
+    height: 20px;
+    width: 280px;
+}
+
+.f3>li>p {
+    /* border: 2px solid red; */
+    font-size: medium;
+    width: 180px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+
+/* join the team code  */
+
+.jt {
+    /* border: 2px solid red; */
+    height: 180px;
+    width: 1260px;
+    text-align: center;
+}
+
+#jtp1 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 75px;
+    color: rgb(20, 19, 19);
+    /* border: 2px solid green; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#jtp2 {
+    font-family: sans-serif;
+    /* border: 2px solid red; */
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+span {
+    font-weight: bold;
+    color: rgb(0, 85, 255);
+}
+
+.vac {
+    /* border: 2px solid red; */
+    height: 60px;
+}
+
+.vac>a>input {
+    text-decoration: none;
+    border: 2px solid rgb(70, 130, 248);
+    width: 250px;
+    height: 60px;
+    color: white;
+    background-color: #0693e3;
+    font-size: large;
+    border-radius: 30px;
+    margin-top: 8px;
+    font-family: sans-serif;
+    margin-left: 500px;
+}
+
+.p2 {
+    /* border: 2px solid red; */
+    height: 150px;
+    width: 1260px;
+    text-align: center;
+}
+
+#p21 {
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: sans-serif;
+    color: rgb(20, 19, 19);
+    /* margin-left: 320px; */
+    margin-top: 20px;
+}
+
+.sear {
+    border: 1px solid gray;
+    height: 100px;
+    width: 1220px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.search>li {
+    border: 1px solid gray;
+    /* border-radius: 20px; */
+}
+
+#l1 {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.search>li>img {
+    margin-top: 10px;
+    margin-left: 10px;
+    /* border: 2px solid red; */
+}
+
+.search>li>input {
+    height: 60px;
+    width: 200px;
+    border-left: 0px rgb(255, 255, 255);
+    border: 0px;
+    /* margin-top: 0px; */
+}
+
+#bttn {
+    margin-left: 100px;
+    border-radius: 20px;
+    border: 0px #0693e3;
+    /* font-size: larger; */
+}
+
+#bttn>a {
+    border: 0px #0693e3;
+}
+
+#bttn>a>input {
+    border: 1px solid #0693e3;
+    border-radius: 20px;
+    background-color: #0693e3;
+    height: 60px;
+    width: 200px;
+    color: white;
+    font-size: large;
+}
+
+.grids {
+    justify-content: space-evenly;
+}
+
+.c1 {
+    /* justify-content: space-evenly; */
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.c1>li {
+    border: 1px solid gray;
+    height: 200px;
+    width: 390px;
+    margin-left: 20px;
+    color: rgb(90, 88, 88);
+    font-weight: bold;
+    padding-left: 10px;
+    font-family: sans-serif;
+}
+
+.c1>li>h3 {
+    color: #0693e3;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 15px;
+}
+
+.jt3 {
+    margin-top: 50px;
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 1260px;
+}
+
+.jt3>img {
+    margin-left: 500px;
+}
+
+.jt4 {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.jt4>li {
+    /* border: 2px solid; */
+    height: 500px;
+    width: 700px;
+}
+
+.jt4>li>h1 {
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+
+.jt4>li>p {
+    color: gray;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+
+/* games page code  */
+
+.backg {
+    /* border: 2px solid red; */
+    height: 500px;
+    width: 1260px;
+    background-image: url(./games-hero.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1450px;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.backg>h1 {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+}
+
+.backg>p {
+    color: white;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ph1 {
+    margin-left: 0px;
+}
+
+.ph1>li {
+    padding-left: 0px;
+    /* border: 2px solid green; */
+    height: 600px;
+    width: 700px;
+    /* margin-left: 20px; */
+}
+
+#medal {
+    height: 600px;
+    width: 400px;
+}
+
+.gems {
+    justify-content: space-between;
+    margin-left: 0px;
+    /* height: 200px; */
+    /* background-color: rgb(241, 249, 250); */
+}
+
+.gems>li {
+    border: 2px solid gray;
+    height: 350px;
+    width: 280px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 5px 8px 1px rgb(208, 230, 232);
+}
+
+.gems>li>img {
+    margin-top: 0px;
+}
+
+.gems>li>p {
+    /* border: 2px solid red; */
+    /* width: 300px; */
+    margin-top: 0px;
+    /* padding-top: 100px; */
+    /* background-color: red; */
+}
+
+#g1 {
+    /* border: 1px solid red; */
+    height: 600px;
+    width: 550px;
+    text-align: center;
+}
+
+#g2 {
+    /* border: 1px solid red; */
+    height: 600px;
+    width: 550px;
+    /* margin-left: 20px; */
+    /* padding-left: 50px; */
+}
+
+#g2>img {
+    margin-left: 80px;
+}
+
+
+/* advertise page */
+
+.frm {
+    /* border: 2px solid red; */
+    height: 900px;
+    width: 1260px;
+    background-color: #0693e3;
+    background-image: url(./advertise\ banner.png);
+    background-repeat: no-repeat;
+    background-position: 0px 300px;
+    background-size: 1280px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.frm>h1 {
+    color: white;
+    font-weight: bolder;
+    font-family: sans-serif;
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+
+.frm>h3 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 0px;
+}
+
+.frm>ul {
+    justify-content: center;
+}
+
+.frm>ul>li>input {
+    height: 50px;
+    width: 300px;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+
+.frm>h5 {
+    color: white;
+    font-size: large;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.frm>input {
+    height: 50px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.rd {
+    color: white;
+    font-size: large;
+    font-family: sans-serif;
+    text-align: center;
+    margin-left: 450px;
+}
+
+
+/* enterprise page  */
+
+.vid {
+    /* border: 2px solid red; */
+    height: 900px;
+    width: 1260px;
+    background-color: rgb(247, 247, 247);
+}
+
+.vid>img {
+    margin-left: 230px;
+}
+
+#g3 {
+    background-image: url(./im1.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    margin-left: 100px;
+}
+
+#g4 {
+    background-image: url(./im2.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    margin-left: 100px;
+}
+
+#g5 {
+    background-image: url(./im3.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    margin-left: 100px;
+}
+
+.im {
+    margin-left: 380px;
+}
+
+.bc {
+    background-color: gainsboro;
+}
